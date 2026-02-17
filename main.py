@@ -11,3 +11,7 @@ def home():
 @app.get("/ok")
 def health_check():
     return {"status": "all ok"}
+
+@app.get("/chec")
+def health_check():
+    return {"status": "checking"}
