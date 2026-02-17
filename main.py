@@ -15,3 +15,8 @@ def health_check():
 @app.get("/chec")
 def health_check():
     return {"status": "checking"}
+
+
+@app.get("/db")
+def health_check():
+    return {"status": "db checking"}
